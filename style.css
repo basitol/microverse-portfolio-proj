@@ -104,3 +104,32 @@ section {
 .work .card .text > span:hover {
   visibility: hidden;
 }
+
+/* Footer */
+
+.footer {
+  background-color: #222;
+  color: #fff;
+  height: 15rem;
+  width: 100%;
+  text-align: center;
+  padding: 2.5rem;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.left{
+  align-items: start;
+}
+.right{
+  width: 100;
+  align-items: end;
+}
+.create{
+  color: #be3144;
+  margin: 1rem;
+  padding: 1rem;
+}
